@@ -1,0 +1,248 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+}
+
+/* Container for content with spacing */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #5c6bc0;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/* Navigation bar */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #5c6bc0;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #3f51b5;
+}
+
+/* Form styles */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+form input[type="submit"] {
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #3f51b5;
+}
+
+/* Section and card styles */
+section {
+    margin-top: 40px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+/* Responsive design for mobile devices */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    nav {
+        font-size: 1rem;
+    }
+
+    header {
+        font-size: 1.5rem;
+    }
+
+    form input,
+    form select,
+    form textarea {
+        font-size: 1rem;
+    }
+}
+
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6e7dff, #4b6cb7); /* Smooth gradient background */
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Login Container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Login Box */
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #4b6cb7;
+}
+
+/* Input Field Styles */
+.textbox {
+    margin: 15px 0;
+    position: relative;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    outline: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.textbox input:focus {
+    border-color: #6e7dff;
+    box-shadow: 0 0 8px rgba(110, 125, 255, 0.6);
+}
+
+/* Submit Button */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #6e7dff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #4b6cb7;
+}
+
+/* Sign-up link text */
+.signup-text {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.signup-text a {
+    color: #6e7dff;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .login-box {
+        width: 80%;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+}
